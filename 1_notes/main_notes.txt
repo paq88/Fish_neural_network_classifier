@@ -1,0 +1,12 @@
+Przerobić model dla 2 stopniowej klasyfikacji
+
+transformacje 
+PCA czy coś 
+
+
+2 i 3 klasowa klasyfikacja dla CNN ortologów. 
+
+
+moze model zbudowany tylko na tych najważniejszych rodzinach sprawdzić ? 
+
+ 

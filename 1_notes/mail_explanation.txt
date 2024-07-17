@@ -1,0 +1,7 @@
+columns - ponds (you need to ask PH for ponds coding of columns and coding of file names) if awkward let me know so I will ask
+rows - microbial annotation to the family level
+cells - abundance (according to Wei it should be expressed as proportions, not the actual number of reads and the zero abundance should be given some very small number like say 1 read before scaling, we do not want zeros)
+so I see 1D cnn as modelling 1 pond and all families as a unit
+goal - teach how to recognise experimental classes
+problem - very little data, as far as I remember only 2 water probes per pond+experimental condition+time, so disaster
+possible solution that I can think of - generate new samples based on the distribution of abundance in the available samples - data augmentation, I have never done it so idk - first fit the parameter of some normal distribution to them You may read a paper on data augmentation techniques and present at the seminar.

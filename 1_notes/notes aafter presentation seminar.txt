@@ -1,0 +1,25 @@
+check for binary classification - controll  not control
+check whenever you can applydifferent lr to diff layers - yes you can 
+
+try only conv conv flat out 
+spróbowac max poooling jakiś jednak jest to ważne
+
+what pond is most problematic
+
+classify binary 
+pond specific accuracy
+
+check loss function
+accuracy
+
+sprawdzić czy nie lepiej zrobić taki stride żeby overlap między oknami był mały  1 albo wcale 
+
+1 - cont 3 sciezki
+2 - cont 54 
+2 - 1 44 
+3 - 4 23 
+0 - 3 2 
+0 - 4 3
+sum istotnych róznic 
+
+sprawdzić jakimś klasyfikatorem który porównuje wszystkie grupy a nie 2 jak ten desek co michalina robiła 

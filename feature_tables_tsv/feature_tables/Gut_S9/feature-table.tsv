@@ -1,0 +1,24 @@
+# Constructed from biom file
+#OTU ID	S9.80.Gut.S9	S9.79.Gut.S9	S9.77.Gut.S9	S9.78.Gut.S9	S9.76.Gut.S9
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Aeromonadales;f__Aeromonadaceae	9862.0	3483.0	1141.0	167.0	3597.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Chitinibacteraceae	392.0	31.0	8.0	4.0	16.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;__;__	83.0	119.0	11.0	2.0	15.0
+d__Bacteria;p__Firmicutes;c__Bacilli;o__Erysipelotrichales;f__Erysipelotrichaceae	104.0	750.0	183.0	490.0	42.0
+d__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae	107.0	422.0	134.0	8.0	30.0
+d__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae	92.0	408.0	124.0	66.0	88.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Aeromonadales;__	30.0	68.0	0.0	0.0	81.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae	24.0	3.0	0.0	0.0	0.0
+d__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Enterococcaceae	20.0	381.0	200.0	86.0	16.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Shewanellaceae	19.0	0.0	3.0	0.0	2.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacterales;f__Yersiniaceae	8.0	245.0	105.0	50.0	46.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacterales;f__Enterobacteriaceae	3.0	8413.0	12974.0	23193.0	13312.0
+d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae	1.0	81.0	26.0	32.0	2.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Comamonadaceae	1.0	0.0	0.0	0.0	32.0
+d__Bacteria;p__Firmicutes;c__Bacilli;o__Mycoplasmatales;f__Mycoplasmataceae	0.0	43.0	5.0	104.0	167.0
+d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Dysgonomonadaceae	0.0	30.0	45.0	16.0	8.0
+d__Bacteria;p__Spirochaetota;c__Brevinematia;o__Brevinematales;f__Brevinemataceae	0.0	22.0	0.0	11.0	24.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Legionellales;f__Legionellaceae	0.0	10.0	0.0	0.0	0.0
+d__Bacteria;p__Firmicutes;c__Bacilli;o__Erysipelotrichales;f__Erysipelatoclostridiaceae	0.0	8.0	13.0	0.0	0.0
+d__Bacteria;p__Actinobacteriota;c__Actinobacteria;o__Micrococcales;__	0.0	6.0	10.0	0.0	1.0
+d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Flavobacteriales;f__Weeksellaceae	0.0	5.0	1.0	0.0	12.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Cardiobacteriales;f__Cardiobacteriales	0.0	0.0	43.0	0.0	3.0
