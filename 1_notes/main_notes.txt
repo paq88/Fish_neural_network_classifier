@@ -1,12 +1,10 @@
-Przerobić model dla 2 stopniowej klasyfikacji
-
-transformacje 
-PCA czy coś 
 
 
-2 i 3 klasowa klasyfikacja dla CNN ortologów. 
 
+moze model zbudowany tylko na tych najważniejszych rodzinach sprawdzić ? Liczonych z SHAPÓW 
 
-moze model zbudowany tylko na tych najważniejszych rodzinach sprawdzić ? 
+czy duża korelacja między zmiennymi sprawia że model jest bardziej odporny na brak niektórych z nich (robustness)
+
+SHAPY dla ortologów (na serwerze) puścić 
 
  
