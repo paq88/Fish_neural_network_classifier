@@ -1,2 +1,0 @@
-S_{i}_pred_metagenome_unstrat.tsv - rezultat z pictrusa dla i-tego stawu; pictrus, czyli ortologi - KO, jeszcze nie ścieżki 
-merged_output_withNA.tsv - abundance już dla ścieżek, wszytskie stawy zebrane w jeden, brakujace zostały zamienione na 0.

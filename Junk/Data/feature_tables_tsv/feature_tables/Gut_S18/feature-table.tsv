@@ -1,0 +1,15 @@
+# Constructed from biom file
+#OTU ID	S18.15.Gut.S18	S18.14.Gut.S18	S18.13.Gut.S18	S18.11.Gut.S18	S18.12.Gut.S18
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Aeromonadales;f__Aeromonadaceae	11032.0	12864.0	15513.0	10658.0	11102.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Aeromonadales;__	119.0	68.0	143.0	74.0	82.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Chitinibacteraceae	159.0	136.0	143.0	61.0	45.0
+d__Bacteria;p__Firmicutes;c__Bacilli;o__Erysipelotrichales;f__Erysipelotrichaceae	63.0	24.0	53.0	16.0	50.0
+d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae	58.0	41.0	45.0	20.0	22.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Cardiobacteriales;f__Cardiobacteriales	16.0	5.0	7.0	6.0	0.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;__;__	9.0	42.0	0.0	3.0	34.0
+d__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae	5.0	3.0	4.0	3.0	9.0
+d__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae	5.0	4.0	0.0	9.0	85.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Chromobacteriaceae	4.0	3.0	10.0	0.0	7.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacterales;f__Enterobacteriaceae	0.0	115.0	176.0	111.0	926.0
+d__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae	0.0	33.0	74.0	2.0	9.0
+d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Flavobacteriales;f__Weeksellaceae	0.0	3.0	10.0	0.0	0.0

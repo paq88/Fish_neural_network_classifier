@@ -1,0 +1,37 @@
+# Constructed from biom file
+#OTU ID	S11.104.Gut.S11	S11.105.Gut.S11	S11.101.Gut.S11	S11.103.Gut.S11	S11.102.Gut.S11
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Aeromonadales;f__Aeromonadaceae	7411.0	3008.0	10931.0	8023.0	3766.0
+d__Bacteria;p__Firmicutes;c__Bacilli;o__Erysipelotrichales;f__Erysipelotrichaceae	1185.0	521.0	44.0	664.0	757.0
+d__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae	693.0	192.0	179.0	278.0	1119.0
+d__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae	283.0	193.0	66.0	356.0	395.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacterales;f__Yersiniaceae	148.0	808.0	19.0	453.0	131.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Methylococcales;f__Methylomonadaceae	201.0	3.0	0.0	39.0	23.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Chitinibacteraceae	54.0	119.0	21.0	19.0	39.0
+d__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Bacillaceae	44.0	18.0	3.0	21.0	14.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;__;__	34.0	106.0	3.0	59.0	0.0
+d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Dysgonomonadaceae	50.0	80.0	4.0	262.0	28.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Cardiobacteriales;f__Cardiobacteriales	19.0	20.0	0.0	34.0	37.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Aeromonadales;__	27.0	39.0	45.0	2.0	21.0
+d__Bacteria;p__Actinobacteriota;c__Actinobacteria;o__Micrococcales;__	15.0	49.0	5.0	15.0	14.0
+d__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Enterococcaceae	22.0	77.0	10.0	201.0	100.0
+d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Chloroplast;f__Chloroplast	30.0	5.0	0.0	0.0	14.0
+d__Bacteria;p__Firmicutes;c__Bacilli;o__Erysipelotrichales;f__Erysipelatoclostridiaceae	8.0	20.0	0.0	60.0	13.0
+d__Bacteria;p__Desulfobacterota;c__Desulfovibrionia;o__Desulfovibrionales;f__Desulfovibrionaceae	6.0	2.0	0.0	71.0	3.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Shewanellaceae	5.0	21.0	21.0	0.0	0.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Rhodocyclaceae	5.0	2.0	0.0	12.0	23.0
+d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Rikenellaceae	3.0	0.0	0.0	12.0	0.0
+d__Bacteria;p__Desulfobacterota;c__Desulfobulbia;o__Desulfobulbales;f__Desulfocapsaceae	2.0	0.0	0.0	5.0	4.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Aeromonadales;f__Aeromonadales	0.0	78.0	0.0	0.0	0.0
+d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae	0.0	10.0	0.0	7.0	3.0
+d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae	0.0	12.0	0.0	18.0	0.0
+d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Nostocaceae	0.0	7.0	0.0	10.0	6.0
+d__Bacteria;p__Actinobacteriota;c__Actinobacteria;o__Micrococcales;f__Micrococcaceae	0.0	3.0	0.0	7.0	0.0
+d__Bacteria;p__Desulfobacterota;c__Syntrophia;o__Syntrophales;f__uncultured	0.0	2.0	0.0	5.0	3.0
+d__Bacteria;p__Firmicutes;c__Bacilli;o__Erysipelotrichales;__	0.0	2.0	0.0	9.0	6.0
+d__Bacteria;p__Firmicutes;c__Bacilli;__;__	0.0	0.0	0.0	278.0	0.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;__	0.0	0.0	0.0	23.0	0.0
+d__Bacteria;p__Actinobacteriota;c__Thermoleophilia;o__Gaiellales;f__uncultured	0.0	0.0	0.0	11.0	0.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Steroidobacterales;f__Steroidobacteraceae	0.0	0.0	0.0	9.0	2.0
+d__Bacteria;p__Firmicutes;c__Bacilli;o__Mycoplasmatales;f__Mycoplasmataceae	0.0	0.0	0.0	0.0	91.0
+d__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae	0.0	0.0	0.0	0.0	29.0
+d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Flavobacteriales;f__Weeksellaceae	0.0	0.0	0.0	0.0	16.0
