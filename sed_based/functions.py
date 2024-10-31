@@ -36,7 +36,8 @@ def crossvalidate(train_val_df, model, predictors, target, kf):
 
    
     
-
+    num_classes = train_val_df[target].nunique()
+    print(f"Number of classes: {num_classes}")
 
     i=1
 
@@ -60,12 +61,11 @@ def crossvalidate(train_val_df, model, predictors, target, kf):
 
         # create train and validate datasets 
         X_train = train_df[predictors].values
-        y_train = train_df[target].values
-        y_train = keras.utils.to_categorical(y_train)
+        y_train = keras.utils.to_categorical(train_df[target].values, num_classes=num_classes)
 
         X_validate = validate_df[predictors].values
-        y_validate = validate_df[target].values
-        y_validate = keras.utils.to_categorical(y_validate)
+        y_validate = keras.utils.to_categorical(validate_df[target].values, num_classes=num_classes)
+
 
         # fit the model
         print(f"training for {i} subset")
@@ -279,7 +279,7 @@ def evaluate_model(model, history, X_test, y_test, acc_name = "Accuracy", loss_n
 
     sample_weight = (y_pred_class != y_test_class)
     plt.rc('font', size=10)
-    ConfusionMatrixDisplay.from_predictions(y_pred_class, y_test_class, #sample_weight=sample_weight,
+    ConfusionMatrixDisplay.from_predictions(y_test_class, y_pred_class, #sample_weight=sample_weight,
                                              normalize="true", values_format=".0%")
 
     # Plot training and validation loss
