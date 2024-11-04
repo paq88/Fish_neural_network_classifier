@@ -313,3 +313,14 @@ def pond_decoder(x,codes):
     return None   
 
 
+def pond_decoder_2(x,codes):
+    
+    x=x.replace('S','')
+    num = int(x.split(".")[0])
+    
+    
+    for key, value_list in codes.items():
+        if num in value_list:
+            return key
+    
+    return None   
