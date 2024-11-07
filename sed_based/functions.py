@@ -24,7 +24,7 @@ def reset_weights(model):
 
 # crossvalidation function
 
-def crossvalidate(train_val_df, model, predictors, target, kf):
+def crossvalidate(train_val_df, model, predictors, target, kf, conv1D = False):
     '''function for crossvalidation of the model
     train_val_df - dataframe with train and validate data
     model - model to be trained
@@ -59,12 +59,26 @@ def crossvalidate(train_val_df, model, predictors, target, kf):
         train_df = train_val_df.iloc[train_index]
         validate_df = train_val_df.iloc[validate_index]
 
-        # create train and validate datasets 
-        X_train = train_df[predictors].values
-        y_train = keras.utils.to_categorical(train_df[target].values, num_classes=num_classes)
+        if conv1D:
+             
+            X_train = train_df[predictors].values
+            X_train = X_train.reshape(X_train.shape[0], X_train.shape[1], 1)
+            y_train = keras.utils.to_categorical(train_df[target].values, num_classes=num_classes)
 
-        X_validate = validate_df[predictors].values
-        y_validate = keras.utils.to_categorical(validate_df[target].values, num_classes=num_classes)
+
+            X_validate = validate_df[predictors].values
+            X_validate = X_validate.reshape(X_validate.shape[0], X_validate.shape[1], 1)
+            y_validate = keras.utils.to_categorical(validate_df[target].values, num_classes=num_classes)
+
+
+
+        else:
+             
+            X_train = train_df[predictors].values
+            y_train = keras.utils.to_categorical(train_df[target].values, num_classes=num_classes)
+
+            X_validate = validate_df[predictors].values
+            y_validate = keras.utils.to_categorical(validate_df[target].values, num_classes=num_classes)
 
 
         # fit the model
