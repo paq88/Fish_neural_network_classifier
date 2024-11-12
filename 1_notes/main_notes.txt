@@ -1,10 +1,1 @@
-
-
-
-moze model zbudowany tylko na tych najważniejszych rodzinach sprawdzić ? Liczonych z SHAPÓW 
-
-czy duża korelacja między zmiennymi sprawia że model jest bardziej odporny na brak niektórych z nich (robustness)
-
-SHAPY dla ortologów (na serwerze) puścić 
-
- 
+XCBOOSt as comparison
