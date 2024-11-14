@@ -1,0 +1,37 @@
+# Constructed from biom file
+#OTU ID	S25.117.Gut.S25	S25.116.Gut.S25	S25.118.Gut.S25	S25.120.Gut.S25	S25.119.Gut.S25
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Aeromonadales;f__Aeromonadaceae	3876.0	7130.0	5130.0	7110.0	9104.0
+d__Bacteria;p__Firmicutes;c__Bacilli;o__Erysipelotrichales;f__Erysipelotrichaceae	3036.0	2514.0	572.0	1946.0	3547.0
+d__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae	1053.0	229.0	345.0	223.0	31.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Cardiobacteriales;f__Cardiobacteriales	281.0	139.0	19.0	921.0	135.0
+d__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae	296.0	182.0	220.0	315.0	147.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Shewanellaceae	106.0	4.0	0.0	219.0	25.0
+d__Bacteria;p__Firmicutes;c__Bacilli;o__Mycoplasmatales;f__Mycoplasmataceae	81.0	31.0	16.0	101.0	107.0
+d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Dysgonomonadaceae	43.0	93.0	189.0	47.0	4.0
+d__Bacteria;p__Firmicutes;c__Bacilli;o__RsaHf231;f__RsaHf231	17.0	16.0	0.0	27.0	0.0
+d__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae	25.0	27.0	579.0	63.0	157.0
+d__Bacteria;p__Planctomycetota;c__Planctomycetes;o__Isosphaerales;f__Isosphaeraceae	15.0	4.0	6.0	11.0	4.0
+d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae	10.0	4.0	20.0	0.0	0.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Chitinibacteraceae	19.0	51.0	66.0	90.0	156.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Legionellales;f__Legionellaceae	5.0	0.0	3.0	2.0	0.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Rhodocyclaceae	5.0	109.0	158.0	5.0	7.0
+d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Chloroplast;f__Chloroplast	3.0	0.0	10.0	4.0	10.0
+d__Bacteria;p__Actinobacteriota;c__Actinobacteria;o__Micrococcales;__	2.0	9.0	73.0	0.0	0.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacterales;f__Enterobacteriaceae	2.0	127.0	0.0	0.0	0.0
+d__Bacteria;p__Planctomycetota;c__Planctomycetes;o__Pirellulales;f__Pirellulaceae	2.0	7.0	6.0	0.0	9.0
+d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Flavobacteriales;f__Weeksellaceae	1.0	0.0	52.0	0.0	17.0
+d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Flavobacteriales;f__Flavobacteriaceae	1.0	3.0	28.0	11.0	21.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Methylococcales;f__Methylomonadaceae	0.0	68.0	51.0	0.0	4.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;__;__	0.0	28.0	20.0	11.0	118.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae	0.0	16.0	0.0	0.0	6.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Aeromonadales;__	0.0	15.0	5.0	0.0	7.0
+d__Bacteria;p__Firmicutes;c__Negativicutes;o__Veillonellales-Selenomonadales;f__uncultured	0.0	15.0	0.0	0.0	0.0
+d__Bacteria;p__Desulfobacterota;c__Desulfovibrionia;o__Desulfovibrionales;f__Desulfovibrionaceae	0.0	32.0	153.0	0.0	0.0
+d__Bacteria;p__Actinobacteriota;c__Actinobacteria;o__Corynebacteriales;f__Nocardiaceae	0.0	6.0	62.0	0.0	3.0
+d__Bacteria;p__Desulfobacterota;c__Desulfobacteria;o__Desulfobacterales;f__Desulfosarcinaceae	0.0	4.0	14.0	0.0	0.0
+d__Bacteria;p__Firmicutes;c__Bacilli;__;__	0.0	3.0	62.0	0.0	0.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacterales;__	0.0	0.0	37.0	0.0	0.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Sutterellaceae	0.0	0.0	12.0	0.0	0.0
+d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Phormidiaceae	0.0	0.0	6.0	30.0	0.0
+d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Rikenellaceae	0.0	0.0	0.0	7.0	12.0
+d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacterales;f__Thorselliaceae	0.0	0.0	0.0	0.0	20.0
