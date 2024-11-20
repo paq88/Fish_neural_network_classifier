@@ -323,8 +323,10 @@ def evaluate_model(model, history, X_test, y_test, acc_name = "Accuracy", loss_n
 def pond_decoder(x,codes):
     
     x=x.replace('S','')
-    num = int(x.split("_")[1])
-    
+    if "_" in x:
+        num = int(x.split("_")[1])
+    else:
+        num = int(x)    
     
     for key, value_list in codes.items():
         if num in value_list:
