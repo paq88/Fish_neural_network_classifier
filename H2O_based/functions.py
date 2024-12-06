@@ -228,6 +228,16 @@ def crossvalidate(train_val_df, model, predictors, target, kf, conv1D = False):
     plt.show()
 
 
+    # confustion matrix for the last fold
+    y_pred = model.predict(X_validate)
+    y_pred_class = np.argmax(y_pred, axis=1)
+    y_true = np.argmax(y_validate, axis=1)
+    print(f"predicted classes:       {y_pred_class}")
+    print(f"true validation classes: {y_true}")
+    cm = confusion_matrix(y_true, y_pred_class)
+    ConfusionMatrixDisplay(cm, display_labels=[f"Class {i}" for i in range(num_classes)]).plot()
+
+
 
 
 
