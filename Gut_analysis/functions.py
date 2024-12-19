@@ -331,9 +331,10 @@ def evaluate_model(model, history, X_test, y_test, acc_name = "Accuracy", loss_n
 # codes = {0 : [8,14,18,24,29], 1: [12,16,19,23,26], 2 : [10,21,28,30,32], 3 : [9,13,17,20,27], 4 : [11,15,22,25,31]}
 
 def pond_decoder(x,codes):
+    x=x.replace('S','')
     if "_" in x: 
         num = int(x.split("_")[1])
-    x=x.replace('S','')
+    
     
     for key, value_list in codes.items():
         if num in value_list:
