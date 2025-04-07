@@ -10,6 +10,14 @@ import numpy as np
 
 
 
+def clr_manual(matrix):
+    """Applies Centered Log-Ratio (CLR) transformation"""
+    matrix = matrix + 1
+    matrix = np.array(matrix)
+    geometric_mean = np.exp(np.mean(np.log(matrix), axis=1))[:, np.newaxis] 
+    clr_transformed = np.log(matrix / geometric_mean) 
+    return clr_transformed
+
 
 def reset_weights(model):
     for layer in model.layers:
@@ -24,7 +32,7 @@ def reset_weights(model):
 
 # crossvalidation function
 
-def crossvalidate(train_val_df, model, predictors, target, kf, conv1D = False):
+def crossvalidate(train_val_df, model, predictors, target, kf,epochs = 300, conv1D = False):
     '''function for crossvalidation of the model
     train_val_df - dataframe with train and validate data
     model - model to be trained
@@ -83,7 +91,7 @@ def crossvalidate(train_val_df, model, predictors, target, kf, conv1D = False):
 
         # fit the model
         print(f"training for {i} subset")
-        history = model.fit(X_train, y_train, epochs=300, batch_size=5, validation_data=(X_validate, y_validate), verbose=0)
+        history = model.fit(X_train, y_train, epochs=epochs, batch_size=5, validation_data=(X_validate, y_validate), verbose=0)
         # evaluate the model
 
         ev_results = model.evaluate(X_validate, y_validate)
@@ -149,7 +157,7 @@ def crossvalidate(train_val_df, model, predictors, target, kf, conv1D = False):
     sd_val_loss_histories = np.nanstd(val_loss_histories, axis=0)
     
 
-    print(f"validation set mean accuracy: {round(mean_acc_score,4)}, sd{round(sd_acc_score,4)}, mean loss: {round(mean_loss_score,4)}, sd: {round(sd_loss_score,4)}")
+    print(f"validation set mean accuracy: {round(mean_acc_score,4)}, sd: {round(sd_acc_score,4)}, mean loss: {round(mean_loss_score,4)}, sd: {round(sd_loss_score,4)}")
     print(f"global mean confidence score: {round(np.mean(global_confidence_scores),4)}, sd confidence score: {round(np.std(global_confidence_scores),4)}")
     # plotting mean curves 
 
@@ -331,9 +339,10 @@ def evaluate_model(model, history, X_test, y_test, acc_name = "Accuracy", loss_n
 # codes = {0 : [8,14,18,24,29], 1: [12,16,19,23,26], 2 : [10,21,28,30,32], 3 : [9,13,17,20,27], 4 : [11,15,22,25,31]}
 
 def pond_decoder(x,codes):
+    x=x.replace('S','')
     if "_" in x: 
         num = int(x.split("_")[1])
-    x=x.replace('S','')
+    
     
     for key, value_list in codes.items():
         if num in value_list:
